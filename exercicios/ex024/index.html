@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas avançadas</title>
+    <style>
+        table{
+            width: 400px;
+        }
+        th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        thead , tfoot{
+            color: rgb(255, 255, 255);
+            background-color: gray;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes </h1>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead
+        
+        >
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
+        </tfoot>
+
+    </table>
 </body>
 </html>
