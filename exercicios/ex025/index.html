@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>formulario</title>[
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+    </style> 
+    ]
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.jv">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>senha: <input type="text" name="senha" id="senha"></p>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isenha">senha:</label>
+            <input type="text" name="senha" id="isenha"></p>
         <input type="submit" value="enviar">
     </form>
     
