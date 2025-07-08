@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="iesta">Estado</label>
+        <select name="estado" id="iesta">
+            <option value="">-------Escolha-------</option>
+        <p>
+            <option value="Sp">São paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="PA">Pará</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="MA">Maranhão</option>
+
+            </select>
+        </p>
+        <p>
+            <label for="itexto">Escreva</label> <br>
+            <textarea name="Escreva" id="iescreva" rows="10" cols="40"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
