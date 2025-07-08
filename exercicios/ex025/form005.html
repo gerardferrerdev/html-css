@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="ih"> <label for="ih">Masculino</label> <br>
+            <input type="radio" name="sexo" id="im"><label for="im">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">futebol</label> <br>
+            <input type="checkbox" name="bask" id="ibask"><label for="ibask">Basquete</label> <br>
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volei</label> <br>
+            <input type="checkbox" name="futame" id="ifutame"><label for="ifutame">Futebol Americano </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Bebidas Favoritas</legend>
+            <input type="checkbox" name="cafe" id="icafe"><label for="icafe">Café</label> <br>
+            <input type="checkbox" name="suco" id="isuco"><label for="isuco">Suco</label> <br>
+            <input type="checkbox" name="Refri" id="irefri"><label for="irefri">Refrigerante</label> <br>
+            <input type="checkbox" name="agua" id="iagua"><label for="iagua">Água</label> <br>
+            <input type="checkbox" name="cha" id="icha"><label for="icha">Chá</label>
+        </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>    
+    </form>
+    
+</body>
+</html>
