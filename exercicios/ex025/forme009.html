@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="" method="get">
+        <p>
+            <label for="irang"></label>
+            <input type="range" name="range" id="irang" min="0" max="10" value="0" oninput="ival.innerHTML = Number(irang.value)">
+            <output id="ival">0</output>
+        </p>
+       
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
