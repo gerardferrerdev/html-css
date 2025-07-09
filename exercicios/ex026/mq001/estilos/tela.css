@@ -15,3 +15,6 @@ html{
 body{
      background-color: aquamarine
 }
+li{
+    list-style: square;
+}
